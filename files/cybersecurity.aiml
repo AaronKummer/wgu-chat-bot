@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>cybersecurity</pattern>
+	    <template>Cybersecurity is needed more and more as businesses become increasingly reliant on digital assets.
+	              Though cybersecurity can be a tough field to break into; it is also rewarding. Would you like to learn more?
+	              
+	              <button>
+	                  <text>yes</text>
+	                  <postback>morecyber</postback>
+	              </button>  
+	              <button>
+	                  <text>
+	                  back to other careers    
+	                  </text>
+	                  <postback>careers</postback>
+	              </button>
+	              </template>
+	</category>              
+	<category>
+	    <pattern>morecyber</pattern>
+	    <template>
+	    <button>
+            <text>Here is a great site to learn and practice some basic cyber security skills!</text>
+            <url>https://overthewire.org/wargames/</url>
+        </button>
+        <link>
+            <text>Here's a link to learn more about all of the different career paths within cyber security.</text>
+            <url>https://www.cybersecurityjobs.com/</url>
+        </link>    
+	    </template>
+    </category>
+	              
+        
+    
+</aiml>

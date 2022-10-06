@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>hello</pattern>
+        <template>Hi, This is the WGU chatbot. I'm excited to help you choose a career path.
+        Have you started thinking about which direction you'd like to go in after graduation?
+        
+         <button>
+                <text>Here are our top 5 career choices for computer science graduates.</text>
+                <postback>careers</postback>
+            </button>
+            <button>
+                <text>I can't decide</text>
+                <postback>general help</postback>
+            </button>   
+        </template>
+    </category>
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>general help</pattern>
+	    <template>I understand. Sometimes I dream about being a human and having the ability to choose my own path. 
+	              That being said I think you should really at least read about our top five career paths for computer science majors. :)     
+	              <button>
+	                  <text>
+	                      Top 5 career choices for computer science graduates.
+	                  </text>
+	                  <postback>careers</postback>
+	              </button>
+	    </template>
+    </category>
+    
+     <category>
+        <pattern>careers</pattern>
+        <template>These are our top five career paths for computer science majors.
+            <button>
+                <text>Dev ops</text>
+                <postback>devops</postback>
+            </button>
+            <button>
+                <text>Cybersecurity</text>
+                <postback>cybersecurity</postback>
+            </button>
+            <button>
+                <text>Cloud architect</text>
+                <postback>cloud</postback>
+            </button>
+            <button>
+                <text>Database Administrator</text>
+                <postback>dba</postback>
+            </button>
+            <button>
+                <text>Web Developer</text>
+                <postback>webdev</postback>
+            </button>
+        </template>
+    </category>
+    
+    
+</aiml>
