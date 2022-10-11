@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-	<!-- insert your AIML categories here -->
 	<category>
 	    <pattern>devops</pattern>
-	    <template>fuck</template>
+	    <template>Kind of like our other job suggestions; "dev ops" can mean a lot of things! At its core dev ops has a lot in common with being a cloud practitioner or cloud architect, but it's also more about 
+	              the actual deployment process of how applications get deployed to different environments, and there's a bit of security involved too! it's a really interested field. Would you like to learn more about dev ops?
+	              
+	              <button>
+	                  <text>yes</text>
+	                  <postback>moredevops</postback>
+	              </button>  
+	              <button>
+	                  <text>
+	                  back to other careers    
+	                  </text>
+	                  <postback>careers</postback>
+	              </button>
+	              </template>
+	</category>              
+	<category>
+	    <pattern>moredevops</pattern>
+	    <template>
+	    <button>
+            <text>Great! Here is a free course that will teach you some of the basicss of dev ops.</text>
+            <url>https://www.freecodecamp.org/news/devops-engineering-course-for-beginners/</url>
+        </button>
+         <button>
+	                  <text>
+	                  back to other careers    
+	                  </text>
+	                  <postback>careers</postback>
+	              </button>
+	    </template>
     </category>
+	              
+        
+    
 </aiml>

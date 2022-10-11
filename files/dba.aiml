@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>dba</pattern>
+	    <template>Database administrators are the go-to experts when it comes to building a new schema, migrating a database or even building out how the database will be used.
+	              This makes database administrators highly sought after. Would you like to learn more about becomming a database admin?
+	              
+	              <button>
+	                  <text>yes</text>
+	                  <postback>moredba</postback>
+	              </button>  
+	              <button>
+	                  <text>
+	                  back to other careers    
+	                  </text>
+	                  <postback>careers</postback>
+	              </button>
+	              </template>
+	</category>              
+	<category>
+	    <pattern>moredba</pattern>
+	    <template>
+	    <button>
+            <text>Great! Here is some more information that will help you on your path to becomming a database administrator.</text>
+            <url>https://www.discoverdatascience.org/career-information/database-administrator/</url>
+        </button>
+        <button>
+	                  <text>
+	                  back to other careers    
+	                  </text>
+	                  <postback>careers</postback>
+	              </button>
+	    </template>
+    </category>
+	              
+</aiml>

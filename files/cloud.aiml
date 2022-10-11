@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 	<category>
-	    <pattern>cybersecurity</pattern>
-	    <template>Cybersecurity is needed more and more as businesses become increasingly reliant on digital assets.
-	              Though cybersecurity can be a tough field to break into; it is also rewarding. Would you like to learn more?
+	    <pattern>cloud</pattern>
+	    <template> More applications and servers than ever before are being hosted in cloud environments. Companies are moving away from hosting their own on premesis servers.
+	               Needless to say this field is growing rapidly. Would you like to learn more about this path?
 	              
 	              <button>
 	                  <text>yes</text>
-	                  <postback>morecyber</postback>
+	                  <postback>morecloud</postback>
 	              </button>  
 	              <button>
 	                  <text>
@@ -18,17 +18,17 @@
 	              </template>
 	</category>              
 	<category>
-	    <pattern>morecyber</pattern>
+	    <pattern>morecloud</pattern>
 	    <template>
 	    <button>
-            <text>Here is a great site to learn and practice some basic cyber security skills!</text>
-            <url>https://overthewire.org/wargames/</url>
+            <text>Here is a great site to learn more about career paths dealing with cloud architecture!</text>
+            <url>https://acloudguru.com/</url>
         </button>
         <link>
-            <text>Here's a link to learn more about all of the different career paths within cyber security.</text>
-            <url>https://www.cybersecurityjobs.com/</url>
+            <text>I suggest you make an account in aws and start playing around with the new skills you learned with your degree program :)</text>
+            <url>https://aws.amazon.com/</url>
         </link>
-         <button>
+        <button>
 	                  <text>
 	                  back to other careers    
 	                  </text>

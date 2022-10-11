@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>webdev</pattern>
+	    <template>Web developer is a common choice for computer science graduates and aspiring programmers in general.
+	              As this profession you will be mainly focused on building web applications and mobile applications. Would you like to learn more about becomming a web developer?
+	              
+	              <button>
+	                  <text>yes</text>
+	                  <postback>morewebdev</postback>
+	              </button>  
+	              <button>
+	                  <text>
+	                  back to other careers    
+	                  </text>
+	                  <postback>careers</postback>
+	              </button>
+	              </template>
+	</category>              
+	<category>
+	    <pattern>morewebdev</pattern>
+	    <template>
+	    <button>
+            <text>Great! Here is some more information that will help you on your path to becomming a web developer.</text>
+            <url>https://careerfoundry.com/en/blog/web-development/what-does-it-take-to-become-a-web-developer-everything-you-need-to-know-before-getting-started/</url>
+        </button>
+        <button>
+	                  <text>
+	                  back to other careers    
+	                  </text>
+	                  <postback>careers</postback>
+	              </button>
+	              
+	    </template>
+    </category>
+	              
+</aiml>

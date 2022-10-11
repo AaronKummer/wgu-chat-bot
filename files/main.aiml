@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
     <category>
-        <pattern>hello</pattern>
+        <pattern>*</pattern>
         <template>Hi, This is the WGU chatbot. I'm excited to help you choose a career path.
         Have you started thinking about which direction you'd like to go in after graduation?
         
@@ -31,13 +31,13 @@
     
      <category>
         <pattern>careers</pattern>
-        <template>These are our top five career paths for computer science majors.
+        <template>These are our top five jobs for computer science majors.
             <button>
-                <text>Dev ops</text>
+                <text>Dev ops engineer</text>
                 <postback>devops</postback>
             </button>
             <button>
-                <text>Cybersecurity</text>
+                <text>Cybersecurity analyst</text>
                 <postback>cybersecurity</postback>
             </button>
             <button>
